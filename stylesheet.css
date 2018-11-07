@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Replica;
+  src: url("assets/Replica-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Replica-light;
+  src: url("assets/Replica-Light.otf");
+}
+
+@font-face {
+  font-family: Replica;
+  src: url("assets/Replica-Regular.otf");
+  font-weight: normal;
+}
+body {
+  background-color:rgb(255, 255, 255);
+  font-family:Replica;
+  }
+
+.p5canvas {
+  cursor: none;
+  margin-top:0;
+  position:relative;
+}
+
+h1 {
+  margin : 20px;
+  padding-left:10px;
+  padding-top:10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+p {
+  font-size: 9;
+  margin : 20px;
+  padding-left:10px;
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  cursor:none;
+}
+
+a:link {
+
+   text-decoration: none;
+   margin-left: 50px;
+   cursor: none;
+}
+
+#administration {
+  position:absolute;
+  bottom:120;
+  left:0;
+  margin-left: 220px;
+  font-family: Replica-light;
+  cursor: none;
+}
+
+#FHA {
+   color:#f7bf74;
+}
+#FHA:hover {
+  border-bottom: solid 2px;
+}
+
+
+#MARAD {
+  color:#0d3a5c;
+}
+#MARAD:hover {
+  border-bottom: dotted 2px;
+}
+
+#FRA:hover {
+  border-bottom: dashed 2px;
+}
+#FRA {
+  color:#e5231f;
+}
+
